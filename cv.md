@@ -34,12 +34,12 @@ _Belarusian National Technical University, Faculty of Marketing, Management, Ent
 * Adobe Photoshop  
 * Blender  
 
----
 ### **English proficiency level:** C1
 
 18 years of practice, 5+ years of actual speaking experience to native english speakers, 1 year of semi-professional translations (done mostly for Steam platform, also translated a [game](https://store.steampowered.com/app/225280/Full_Mojo_Rampage/) completely from English into Russian).
 
 ---
+### **Contact info:**
 
 | Contacts |         |
 | -------- | ------- |
