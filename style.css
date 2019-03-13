@@ -12,12 +12,12 @@ p{
 }
 
 .wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .title, .nav {
@@ -30,8 +30,8 @@ p{
 
 .nav li {
   display: inline;
-  font-size: 30px;
   padding: 0 10px;
+  font-size: 30px;
 }
 
 .nav li:last-child {
