@@ -6,49 +6,42 @@
     <title>CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div>
-        <h1>Dzmitry Litsvinau</h1>
-      </div>
-      <div>
-        <nav>
-          <ul>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Contacts</a></li>
-          </ul>
-        </nav>
+      <div class="wrapper">
+        <div class="title">
+          <h1>Dzmitry Litsvinau</h1>
+        </div>
+        <div class="nav">
+          <nav>
+            <ul>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-    <section class="education">
+    <section class="education" id="education">
       <div class="wrapper">
-        <div>
           <h2>Education</h2>
-        </div>
-        <div>
-          <p>Innovative Management <br>
-            Institute of Parliamentarism and Entrepreneurship, Minsk, 2017 - 2019 <br>
-    
-            Business Administration <br>
-            Belarusian National Technical University, Faculty of Marketing, Management, Entrepreneurship, Minsk, 2013 - 2017 <br>
-            
-            Courses, online studies <br>
-            
-            RSSchool, February 2019 - ongoing <br>
-            
-            CS50, Harvard University <br>
-            
-            learn.javascript.ru, ongoing <br>
-            
-            freecodecamp.org, ongoing <br>
+          <p><strong>Innovative Management</strong> <br>
+          <em>Institute of Parliamentarism and Entrepreneurship, Minsk, 2017 - 2020</em></p>
+          <p><strong>Business Administration</strong> <br>
+          <em>Belarusian National Technical University, Faculty of Marketing, Management, Entrepreneurship, Minsk, 2013 - 2017 </em><br> </p>
+          <h3>Courses, online studies</h3> 
+          <p><strong>RSSchool</strong>, February 2019 - ongoing<br>
+          <strong>CS50</strong>, Harvard University <br>
+          <strong>learn.javascript.ru</strong>, ongoing<br>
+          <strong>freecodecamp.org</strong>, ongoing<br>
           </p>
-          </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="wrapper">
         <h2>Skills</h2>
         <h3>Beginner</h3>
@@ -72,9 +65,12 @@
           </p>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="wrapper">
-        <p>Hey there! Thanks for stopping by to visit my page. Think I should introduce myself first. 
+        <h2>About me</h2>
+        <div class="photo">
+          <img src="img/author.png" width="130" height="150">
+          <p>Hey there! Thanks for stopping by to visit my page. Think I should introduce myself first. 
             My name’s Dzmitry, 23 years old, and recently I’ve made a conscious decision to pursue a 
             development career. Why, you ask? Well, it’s simple, really. After graduating I couldn’t really 
             find myself and I really didn’t feel like doing odd jobs for the rest of my life. I needed to strive 
@@ -82,28 +78,33 @@
             my nose this whole time. I’ve always been kind of a “nerd” at heart and good with computers in general. But I’ve 
             always had this preconception, that in order to become a software engineer, you had to be some kind of genius, and 
             would need some sort of a formal education for that. Clearly, that’s not completely true, and I’m here today to explore this opportunity.
-
-            When I actually got my hands working on some problems, It felt really good to solve them, meanwhile it was 
+          </p>
+        </div>
+        <div class="info">
+          <p>When I actually got my hands working on some problems, It felt really good to solve them, meanwhile it was 
             also really neat to see all the different real-world implementations of algorithms. What really excited me about 
             this field is how fast-paced and dynamic it is. You’ll become obsolete if you don’t learn new things every day. 
             This is a really great opportunity to better yourself by educating yourself and obtaining useful skills, while also 
             learning HOW to learn in the process. This is something new to me, and it’s really great.
-            
-            This course was the real incentive for me to look into Front-End development specifically. 
-            Currently I don’t have much experience at all,as you can see from my CV, but I believe that i possess the 
-            right mindset to reach my goal in the end. What I’m really looking forward to from this course is accelerating my progress, 
-            and having an actual curriculum to follow.
-        </p>
+          </p>
+          <p>This course was the real incentive for me to look into Front-End development specifically. 
+              Currently I don’t have much experience at all,as you can see from my CV, but I believe that i possess the 
+              right mindset to reach my goal in the end. What I’m really looking forward to from this course is accelerating my progress, 
+              and having an actual curriculum to follow.</p> 
+        </div>
       </div>
     </section>
-    <footer class="contacts">
+    <footer class="contacts" id="contacts">
       <div class="wrapper">
-        <h2>Contacts</h2>
-        <p>Telegram 	@Tellorium
-          Email 	dimalitx@gmail.com
-          Phone number 	+375447298474
-          Discord 	Veliar#0428
-        </p>
+        <div class="contacts-title">
+          <h2>Contacts</h2>
+        </div>
+        <div class="s-media">
+          <img src="img/telegram.png" width="64" height="64" alt="Telegram">	<p>@Tellorium</p>
+          <img src="img/email.png" width="64" height="64" alt="Email">	<p>dimalitx@gmail.com</p>
+          <img src="img/phone.png" width="64" height="64"alt="Phone number"> <p>+375447298474</p> 	
+          <img src="img/discord.png" width="64" height="64" alt="Discord"> <p>Veliar#0428</p>
+        </div>
       </div>
     </footer>
   </body>
